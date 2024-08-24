@@ -4,7 +4,7 @@ def sub(x, y):
     return x - y
 def divi(x, y):
     if y == 0:
-        return("Erro, divisão por zero!")
+        return("Erro! divisão por zero!")
     else:
         return x / y
 def multi(x, y):
