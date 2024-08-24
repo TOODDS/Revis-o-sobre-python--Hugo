@@ -14,7 +14,7 @@ def pote(x):
 rep = True
 
 while rep:
-    escolha = input('''
+    escolha = input('''     ----- Cal.py -----
           1- Soma
           2- Subtração
           3- Multiplicação
