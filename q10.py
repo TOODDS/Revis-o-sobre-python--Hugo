@@ -11,7 +11,20 @@ def multi(x, y):
     return x * y
 def pote(x):
     return x * x
-rep = True
+
+
+print('''Olá, você deseja acessar a calculadora?
+           1- Sim
+           2- Não''')
+op = input(": ")
+if op == "1":
+    rep = True
+elif op == "2":
+    print("Puxa que pena :(")
+    rep = False
+else:
+    op = input("Informação dada errada! Tente novamente: ")
+
 
 while rep:
     escolha = input('''     ----- Cal.py -----
