@@ -16,20 +16,20 @@ rep = True
 
 while 1:  
     print('''Olá, você deseja acessar a calculadora?
-           1- Sim
-           2- Não''')
+1- Sim
+2- Não''')
     op = input(": ")
     
     if op == "1":
         while rep: 
             escolha = input('''     ----- Cal.py -----
-                  1- Soma
-                  2- Subtração
-                  3- Multiplicação
-                  4- Divisão
-                  5- Elevar ao quadrado
-                  0- Sair
-                  Escolha uma operação: ''')
+1- Soma
+2- Subtração
+3- Multiplicação
+4- Divisão
+5- Elevar ao quadrado
+0- Sair
+Escolha uma operação: ''')
             if escolha == "1":
                 num1 = float(input("Digite o primeiro número: "))
                 num2 = float(input("Digite o segundo número: "))
